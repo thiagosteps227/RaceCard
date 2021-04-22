@@ -1,0 +1,117 @@
+/* So the HTML5 structural tags work in older browsers */
+article, aside, figure, figcaption, footer, header, nav, section {
+    display: block;
+}
+/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 87.5%;
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #ff0000;
+    background-color: #fffded;
+}
+
+/* the styles for the header */
+header {
+	border-bottom: 3px solid #ff0000;
+	padding: 1.5em 0 1.5em 5em;
+	background-color: black;
+}
+
+
+
+/* the styles for the section */
+section {
+	padding: 0 20px 20px;
+	width: 525px;
+	float: right;
+	font-size:150%;
+}
+section h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+
+
+aside {
+	width: 300px;
+	float: left;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+aside h1 {
+	font-size: 150%;
+	padding: .5em 0 .25em;
+}
+aside h2 {
+	font-size: 120%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+/* the styles for the navigation list */
+#nav_list ul { 
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 1.5em; }
+#nav_list li { 
+	width: 300px;
+	margin-bottom: .5em;
+	border: 2px double black;
+	border-radius: 10px;
+	box-shadow: 3px 3px 0 0 #dd0000;
+	background-image: url("../images/right.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% center;
+		
+}
+#nav_list li a {
+	display: block;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	padding: .5em 0 .5em 1em;
+}
+
+nav a:focus, nav a:hover{
+	font-style: italic;
+}
+/*the styles for the table */
+td, th
+ {
+ border:1px solid red;
+ padding:3px;
+ }
+ 
+ th
+ {
+ background-color:red;
+ color:white;
+ }
+ /*styles for the more info link*/
+ 
+ section a {
+	display: block;
+	font-weight: bold;
+	color: blue;
+	padding: .5em 0 .5em 1em;
+}
+ 
+/* the styles for the footer */
+footer {
+	border-top: 3px solid #ff0000;
+	padding: 1em 0;
+	clear: both;
+}
+footer p {
+	text-align: center;
+}
